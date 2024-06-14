@@ -12,7 +12,7 @@ import utilities.ExcelFileUtil;
 public class DriverScript {
 	WebDriver driver;
 	String inputpath ="./FileInput/DataEngine.xlsx";
-	String outputpath ="./Fileoutput/HybridResults.xlsx";
+	String outputpath ="./FileOutput/HybridResults.xlsx";
 	ExtentReports report;
 	ExtentTest logger;
 	String TestCases ="MasterTestCases";
@@ -68,14 +68,60 @@ public class DriverScript {
 							FunctionLibrary.clickAction(LName, Lvalue);
 							logger.log(LogStatus.INFO, Description);
 						}
-						if(Object_Type.equalsIgnoreCase("ValidateTitle"))
+						if(Object_Type.equalsIgnoreCase("validateTitle"))
 						{
 							FunctionLibrary.validateTitle(Test_Data);
 							logger.log(LogStatus.INFO, Description);
 						}
-						if(Object_Type.equalsIgnoreCase("CloseBrowser"))
+						if(Object_Type.equalsIgnoreCase("closeBrowser"))
 						{
 							FunctionLibrary.closeBrowser();
+							logger.log(LogStatus.INFO, Description);
+						}
+						if(Object_Type.equalsIgnoreCase("mouseClick"))
+						{
+							FunctionLibrary.mouseClick();
+							logger.log(LogStatus.INFO, Description);
+						}
+						if(Object_Type.equalsIgnoreCase("categoryTable"))
+						{
+							FunctionLibrary.categoryTable(Test_Data);
+							logger.log(LogStatus.INFO, Description);
+						}
+						if(Object_Type.equalsIgnoreCase("dropDownAction"))
+						{
+							FunctionLibrary.dropDownAction(LName, Lvalue, Test_Data);
+							logger.log(LogStatus.INFO, Description);
+						}
+						if(Object_Type.equals("captureStock"))
+						{
+							FunctionLibrary.captureStock(LName, Lvalue);
+							logger.log(LogStatus.INFO, Description);
+						}
+						if(Object_Type.equalsIgnoreCase("stockTable"))
+						{
+							FunctionLibrary.stockTable();
+							logger.log(LogStatus.INFO, Description);
+						}
+						if(Object_Type.equalsIgnoreCase("capturesupplier"))
+						{
+							FunctionLibrary.captuersupplier(LName, Lvalue);
+							logger.log(LogStatus.INFO, Description);
+						}
+						if(Object_Type.equalsIgnoreCase("supplierTable"))
+						{
+							FunctionLibrary.supplierTable();
+							logger.log(LogStatus.INFO, Description);
+						}
+						if(Object_Type.equalsIgnoreCase("captureCustomer"))
+						{
+							FunctionLibrary.captuerCustomer(LName, Lvalue);
+							logger.log(LogStatus.INFO, Description);
+						}
+						if(Object_Type.equalsIgnoreCase("customerTable"))
+
+						{
+							FunctionLibrary.customerTable();
 							logger.log(LogStatus.INFO, Description);
 						}
 						//write as pass into TCModule sheet in status cell

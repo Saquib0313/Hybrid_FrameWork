@@ -1,14 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[Supplier-00000003610      Supplier-00000003610   {Supplier Number is Matching}]]>
+    </line>
+    <line>
+      <![CDATA[Customer-00000006753      Customer-00000006753   {Customer Number is Matching}]]>
+    </line>
   </reporter-output>
-  <suite started-at="2024-06-11T14:52:37 IST" name="Surefire suite" finished-at="2024-06-11T14:52:46 IST" duration-ms="9381">
+  <suite started-at="2024-06-14T12:54:12 IST" name="Surefire suite" finished-at="2024-06-14T12:54:45 IST" duration-ms="32984">
     <groups>
     </groups>
-    <test started-at="2024-06-11T14:52:37 IST" name="Surefire test" finished-at="2024-06-11T14:52:46 IST" duration-ms="9381">
+    <test started-at="2024-06-14T12:54:12 IST" name="Surefire test" finished-at="2024-06-14T12:54:45 IST" duration-ms="32984">
       <class name="driverFactory.AppTest">
-        <test-method signature="kickStart()[pri:0, instance:driverFactory.AppTest@10959ece]" started-at="2024-06-11T14:52:37 IST" name="kickStart" finished-at="2024-06-11T14:52:46 IST" duration-ms="9336" status="PASS">
+        <test-method signature="kickStart()[pri:0, instance:driverFactory.AppTest@10959ece]" started-at="2024-06-14T12:54:12 IST" name="kickStart" finished-at="2024-06-14T12:54:45 IST" duration-ms="32939" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Supplier-00000003610      Supplier-00000003610   {Supplier Number is Matching}]]>
+            </line>
+            <line>
+              <![CDATA[Customer-00000006753      Customer-00000006753   {Customer Number is Matching}]]>
+            </line>
           </reporter-output>
         </test-method> <!-- kickStart -->
       </class> <!-- driverFactory.AppTest -->

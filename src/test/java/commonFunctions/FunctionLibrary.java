@@ -26,7 +26,7 @@ import org.testng.Reporter;
 public class FunctionLibrary {
 	public static Properties conpro;
 	public static WebDriver driver;
-	//method for launching browser
+	//method for launching browser 
 	public static WebDriver startBrowser()throws Throwable
 	{
 		conpro = new Properties();

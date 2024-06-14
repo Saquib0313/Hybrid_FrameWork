@@ -2,24 +2,36 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[Supplier-00000003610      Supplier-00000003610   {Supplier Number is Matching}]]>
+      <![CDATA[Electronics         Electronics]]>
     </line>
     <line>
-      <![CDATA[Customer-00000006753      Customer-00000006753   {Customer Number is Matching}]]>
+      <![CDATA[Stock-000001798       Stock-000001798]]>
+    </line>
+    <line>
+      <![CDATA[Supplier-00000003613      Supplier-00000003613   {Supplier Number is Matching}]]>
+    </line>
+    <line>
+      <![CDATA[Customer-00000006755      Customer-00000006755   {Customer Number is Matching}]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-06-14T12:54:12 IST" name="Surefire suite" finished-at="2024-06-14T12:54:45 IST" duration-ms="32984">
+  <suite started-at="2024-06-14T15:46:56 IST" name="Surefire suite" finished-at="2024-06-14T15:48:10 IST" duration-ms="73753">
     <groups>
     </groups>
-    <test started-at="2024-06-14T12:54:12 IST" name="Surefire test" finished-at="2024-06-14T12:54:45 IST" duration-ms="32984">
+    <test started-at="2024-06-14T15:46:56 IST" name="Surefire test" finished-at="2024-06-14T15:48:10 IST" duration-ms="73753">
       <class name="driverFactory.AppTest">
-        <test-method signature="kickStart()[pri:0, instance:driverFactory.AppTest@10959ece]" started-at="2024-06-14T12:54:12 IST" name="kickStart" finished-at="2024-06-14T12:54:45 IST" duration-ms="32939" status="PASS">
+        <test-method signature="kickStart()[pri:0, instance:driverFactory.AppTest@10959ece]" started-at="2024-06-14T15:46:56 IST" name="kickStart" finished-at="2024-06-14T15:48:10 IST" duration-ms="73705" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Supplier-00000003610      Supplier-00000003610   {Supplier Number is Matching}]]>
+              <![CDATA[Electronics         Electronics]]>
             </line>
             <line>
-              <![CDATA[Customer-00000006753      Customer-00000006753   {Customer Number is Matching}]]>
+              <![CDATA[Stock-000001798       Stock-000001798]]>
+            </line>
+            <line>
+              <![CDATA[Supplier-00000003613      Supplier-00000003613   {Supplier Number is Matching}]]>
+            </line>
+            <line>
+              <![CDATA[Customer-00000006755      Customer-00000006755   {Customer Number is Matching}]]>
             </line>
           </reporter-output>
         </test-method> <!-- kickStart -->
